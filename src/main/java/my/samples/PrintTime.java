@@ -15,6 +15,7 @@ import org.joda.time.Instant;
 public class PrintTime {
 
 	public static void main(String[] args) {
+		System.out.println("branch release1");
 		Long currDateTime = new Date().getTime();
 		Long currCalendarTime = Calendar.getInstance().getTime().getTime();
 		Long currInstantTime = Instant.now().getMillis();
